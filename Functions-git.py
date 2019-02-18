@@ -10,7 +10,7 @@ def greeting():
     print("Nice to meet you")
 
 greeting()
-'''
+
 
 
 # 4.13.4: Functions And Variables
@@ -25,4 +25,16 @@ def print_something():
 
 print_something()
 print (x)
+'''
 
+
+# 4.13.5: Functions and Variables, Part 2
+# Nicholas Fahndrich
+# 2/18/19
+
+my_variable = 3.46745
+
+def something():
+    print (my_variable + 10)
+
+something()
