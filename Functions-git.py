@@ -2,7 +2,7 @@
 # Nicholas Fahndrich
 # 2/5/19
 
-'''
+
 name = input("What is your name: ")
 
 def greeting():
@@ -25,7 +25,7 @@ def print_something():
 
 print_something()
 print (x)
-'''
+
 
 
 # 4.13.5: Functions and Variables, Part 2
