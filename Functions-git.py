@@ -63,13 +63,6 @@ def print_sum(x, y):
 print_sum(46,62)
 
 
-# Nicholas Fahndrich
-# 2.18.19
-
-def name_and_age(name, age):
-    print('Hi, my name is', name, 'and I am', str(age), 'years old!')
-name_and_age('Mike', 33
-
 
 # 4.16.4: Enter Name And Age Using the try and except rule
 # Nicholas Fahndrich
