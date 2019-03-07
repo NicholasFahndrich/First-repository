@@ -3,6 +3,7 @@
 # 2/5/19
 
 
+
 name = input("What is your name: ")
 
 def greeting():
@@ -68,3 +69,20 @@ print_sum(46,62)
 def name_and_age(name, age):
     print('Hi, my name is', name, 'and I am', str(age), 'years old!')
 name_and_age('Mike', 33
+
+
+# 4.16.4: Enter Name And Age Using the try and except rule
+# Nicholas Fahndrich
+# 2.20.19
+
+name = input('Enter your name: ')
+
+age = 1
+
+try:
+    age = int(input('Enter Your Age'))
+except ValueError:
+    print('\n''That Was Not An Integer For Your Age')
+
+print('name:', name)
+print('Age:', age)
